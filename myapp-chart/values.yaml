@@ -1,0 +1,9 @@
+# Define default values for your Helm chart here
+db:
+  image: postgres:latest
+  secret:
+    POSTGRES_USER: "hp"
+    POSTGRES_PASSWORD: "Harshith"
+    POSTGRES_DB: "prithvi"
+myapp:
+  image: "hp2411/myhnew-app:latest"
